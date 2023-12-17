@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://tds.indianeagle.com/wp-content/uploads/2023/02/Travel-guide-to-GOA.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.583);
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 30px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom:5px;
+    background-color: black;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.nav>h1{
+    padding-left: 25px;
+}
+.nav>i{
+    padding-left: 22%;
+}
+.nav>button{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(127, 255, 133);
+    border-radius: 25%;
+}
+.Images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+    /* padding-top: 5%; */
+    /* padding-left: 3%; */
+    /* gap: 1%; */
+}
+.Image{
+    width: 20%;
+    height: 60%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+    text-align: center; 
+    font-size: 25px ;
+    font-weight: 400;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all ease 2s;
+
+}
+.img1{
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/3e/36/95/baga-sea-beach.jpg?w=1200&h=1200&s=1);
+    transform: perspective(600px) rotateY(20deg) translateX(40px);
+}
+.img2{
+    background-image: url(https://www.tourmyindia.com/states/goa/image/calangute-beach-banner.webp);
+    transform: perspective(600px) rotateY(20deg) translateX(18px);
+}
+.img3{
+  background-image: url(https://www.holidify.com/images/cmsuploads/compressed/3201_20200511192013.jpg);
+}
+.img4{
+ background-image: url(https://i.ytimg.com/vi/iSrLeGy-idY/mqdefault.jpg); 
+ transform: perspective(600px) rotateY(-20deg) translateX(-18px);
+}
+.img5{
+   background-image: url(https://assets.traveltriangle.com/blog/wp-content/uploads/2019/12/Palolem_beach_Goa_-_panoramio.jpg);
+   transform: perspective(600px) rotateY(-20deg) translateX(-40px);
+}
+.heading{
+    width: 46%;
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 40%;
+    left: 30%;
+    z-index: 5;
+    color: white;
+}
+.heading>h1{
+    font-weight: 400;
+    font-size: 100px;
+    color:white;
+    font-family: 'Patrick Hand', cursive;
+      
+}
+.heading>p{
+     font-size: 40px;
+     font-weight:100;
+}
+h1:hover{
+    color: blue;
+}
+h3:hover{
+    color: brown;
+}
+button:hover{
+    color: blue;
+}
+.img1:hover{
+    scale: 1.3;
+}
+.img2:hover{
+    scale: 1.3;
+}
+.img3:hover{
+    scale: 1.3;
+}
+.img4:hover{
+    scale: 1.3;
+}
+.img5:hover{
+    scale: 1.3;
+}
